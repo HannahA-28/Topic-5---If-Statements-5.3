@@ -30,19 +30,48 @@
             //Console.WriteLine("What is the password? You have 5 guesses.");
             //int.TryParse(Console.ReadLine(), out guesses);
             //password = Console.ReadLine();
-            //if (password == santa&& guesses <= 5)
+            //if (password == "santa" && guesses <= 5)
             //    Console.WriteLine("Open Sesame.");
             //else
             //    Console.WriteLine("Access Denied.");
 
-            string topping;
-            Console.WriteLine("What are your favourite pizza toppings?");
-            topping = Console.ReadLine();
-            if (topping == pepperoni || topping == bacon)
-                Console.WriteLine("Yum!");
-            else
-                Console.WriteLine("Yuck!");
-            
+            //string topping;
+            //Console.WriteLine("What are your favourite pizza toppings?");
+            //topping = Console.ReadLine();
+            //if (topping == "pepperoni" || topping == "bacon")
+            //    Console.WriteLine("Yum!");
+            //else
+            //    Console.WriteLine("Yuck!");
+
+            //Console.WriteLine("Task one");
+            //int age;
+            //Console.WriteLine("How old are you?");
+            //int.TryParse(Console.ReadLine(), out age);
+            //if (age <= 12 || age >= 60)
+            //    Console.WriteLine("The pass is $2.00");
+            //else
+            //    Console.WriteLine("The pass is $3.50");
+
+            //Console.WriteLine("Task two");
+            //string animal;
+            //Console.WriteLine("What is your favoutrite animal?");
+            //animal = Console.ReadLine();
+            //if (animal == "cat" || animal == "dog")
+            //    Console.WriteLine("Me too!");
+            //else
+            //    Console.WriteLine("To each their own.");
+
+            //Console.WriteLine("Task three");
+            //int temp;
+            //string weather;
+            //Console.WriteLine("What is the temperature outside?");
+            //int.TryParse(Console.ReadLine(), out temp);
+            //Console.WriteLine("What is the weather like?");
+            //weather = Console.ReadLine();
+            //if (weather == "sunny" || temp > 25)
+            //    Console.WriteLine("Swim time!");
+            //else
+            //    Console.WriteLine("Nap time!");
 
         }
     }
